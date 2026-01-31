@@ -1,0 +1,249 @@
+cv:
+  name: Zhenyu Bai
+  label: ARTIC Fellow
+  email: zhenyu.bai@nus.edu.sg
+  image: ""
+
+  social_networks:
+    - network: GitHub
+      username: FTOD
+    - network: ORCID
+      username: 0000-0003-1143-0762
+    - network: Scopus
+      username: 58983402300
+
+  sections:
+    Education:
+      - institution: IRIT lab, University of Toulouse
+        location: Toulouse, France
+        area: Computer Science
+        studyType: PhD
+        start_date: 2019-10
+        end_date: 2023-05
+        highlights:
+          - Scholarship funded by the French Minister for Higher Education and Research (top Master students).
+
+      - institution: University of Toulouse
+        location: Toulouse, France
+        area: Embedded Computing Systems
+        studyType: Master
+        start_date: 2017-09
+        end_date: 2019-08
+
+      - institution: University of Toulouse
+        location: Toulouse, France
+        area: Computer Science
+        studyType: BS
+        start_date: 2014-09
+        end_date: 2017-08
+
+    Experience:
+      - company: National University of Singapore, School of Computing
+        position: Research Fellow (ARTIC Fellow from 2026)
+        start_date: 2023-05
+        location: Singapore
+        summary: "PI: Tulika Mitra"
+        highlights:
+          - Reconfigurable spatial-dataflow architecture and compiler design (collaborations with Tenstorrent & IBM).
+          - Hardware accelerators for sparse and quantized AI workloads.
+          - Compilers for Coarse Grained Reconfigurable Array (CGRA).
+          - Dataflow architecture and software co-design for Spiking Neural Networks.
+          - Heterogeneous FPGA-GPU system for AI workloads (collaborations with AMD).
+
+      - company: IRIT, University of Toulouse
+        position: PhD student
+        start_date: 2019-10
+        end_date: 2023-05
+        location: Toulouse, France
+        highlights:
+          - CPU micro-architecture modeling and program performance analysis for real-time systems.
+
+      - company: Verimag, Grenoble Alpes University
+        position: Research Intern
+        start_date: 2019-04
+        end_date: 2019-10
+        location: Grenoble, France
+        highlights:
+          - CPU cache analysis and program analysis for real-time systems.
+
+      - company: University of Toulouse
+        position: Teaching (Computer Architecture & Compilation)
+        location: Toulouse, France
+        highlights:
+          - Computer Architecture and VHDL (≈80h)
+          - Computer Architecture and ARM assembly (≈50h)
+          - Compilation Theory (≈60h)
+          - Advanced Compilation (≈10h)
+          - Master student project supervisor (3 months/year)
+
+    Publications:
+      - title: A Data-Driven Dynamic Execution Orchestration Architecture
+        authors:
+          - Zhenyu Bai
+          - Pranav Dangi
+          - Rohan Juneja
+          - Zhaoying Li
+          - Zhanglu Yan
+          - Huiying Lan
+          - Tulika Mitra
+        publisher: 31th ACM International Conference on Architectural Support for Programming Languages and Operating Systems
+        releaseDate: 2026
+
+      - title: "SWAT: Scalable and efficient window attention-based transformers acceleration on FPGAs"
+        authors:
+          - Zhenyu Bai
+          - Pranav Dangi
+          - Huize Li
+          - Tulika Mitra
+        publisher: Proceedings of the 61st ACM/IEEE Design Automation Conference
+        releaseDate: 2024
+
+      - title: "Zed: A generalized accelerator for variably sparse matrix computations in ml"
+        authors:
+          - Pranav Dangi
+          - Zhenyu Bai
+          - Rohan Juneja
+          - Dhananjaya Wijerathne
+          - Tulika Mitra
+        publisher: Proceedings of the 2024 International Conference on Parallel Architectures and Compilation Techniques
+        releaseDate: 2024
+
+      - title: "TerEffic: Highly Efficient Ternary LLM Inference on FPGA"
+        authors:
+          - Chenyang Yin
+          - Zhenyu Bai
+          - Pranav Venkatram
+          - Shivam Aggarwal
+          - Zhaoying Li
+          - Tulika Mitra
+        publisher: "arXiv preprint arXiv:2502.16473"
+        releaseDate: 2025
+
+      - title: Enhancing CGRA Efficiency Through Aligned Compute and Communication Provisioning
+        authors:
+          - Zhaoying Li
+          - Pranav Dangi
+          - Chenyang Yin
+          - Thilini Kaushalya Bandara
+          - Rohan Juneja
+          - Cheng Tan
+          - Zhenyu Bai
+          - Tulika Mitra
+        publisher: "Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1"
+        releaseDate: 2025
+
+      - title: "SparrowSNN: A Hardware/software Co-design for Energy Efficient ECG Classification"
+        authors:
+          - Zhanglu Yan
+          - Zhenyu Bai
+          - Tulika Mitra
+          - Weng-Fai Wong
+        publisher: "arXiv preprint arXiv:2406.06543"
+        releaseDate: 2024
+
+      - title: Reconsidering the energy efficiency of spiking neural networks
+        authors:
+          - Zhanglu Yan
+          - Zhenyu Bai
+          - Weng-Fai Wong
+        publisher: "arXiv preprint arXiv:2409.08290"
+        releaseDate: 2024
+
+      - title: Data-aware Dynamic Execution of Irregular Workloads on Heterogeneous Systems
+        authors:
+          - Zhenyu Bai
+          - Dan Wu
+          - Pranav Dangi
+          - Dhananjaya Wijerathne
+          - Venkata Pavan Kumar Miriyala
+          - Tulika Mitra
+        publisher: "arXiv preprint arXiv:2502.06304"
+        releaseDate: 2025
+
+      - title: Improving the Performance of WCET Analysis in the Presence of Variable Latencies
+        authors:
+          - Zhenyu Bai
+          - Hugues Cassé
+          - Marianne De Michiel
+          - Thomas Carle
+          - Christine Rochange
+        publisher: "The 21st ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES)"
+        releaseDate: 2020
+        url: https://doi.org/10.1145/3372799.3394371
+
+      - title: A Framework for Calculating WCET Based on Execution Decision Diagrams
+        authors:
+          - Zhenyu Bai
+          - Hugues Cassé
+          - Marianne De Michiel
+          - Thomas Carle
+          - Christine Rochange
+        publisher: ACM Transactions on Embedded Computing Systems
+        releaseDate: 2022
+        url: https://doi.org/10.1145/3476879
+
+      - title: Computing Execution Times With Execution Decision Diagrams in the Presence of Out-of-Order Resources
+        authors:
+          - Zhenyu Bai
+          - Hugues Cassé
+          - Thomas Carle
+          - Christine Rochange
+        publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+        releaseDate: 2023
+
+      - title: PLRU cache analysis
+        authors:
+          - Zhenyu Bai
+          - David Monniaux
+          - Claire Maïza
+        publisher: Proceedings of the 13th Junior Researcher Workshop on Real-Time Computing (JRWRTC 2019)
+        releaseDate: 2019
+
+      - title: "TL: Automatic End-to-End Compiler of Tile-Based Languages for Spatial Dataflow Architectures"
+        authors:
+          - Wei Li
+          - Zhenyu Bai
+          - Heru Wang
+          - Pranav Dangi
+          - Zhiqiang Zhang
+          - Cheng Tan
+          - Huiying Lan
+          - Weng-Fai Wong
+          - Tulika Mitra
+        publisher: "arXiv preprint arXiv:2512.22168"
+        releaseDate: 2025
+
+      - title: "ASADI: Accelerating sparse attention using diagonal-based in-situ computing"
+        authors:
+          - Huize Li
+          - Zhaoying Li
+          - Zhenyu Bai
+          - Tulika Mitra
+        publisher: 2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)
+        releaseDate: 2024
+
+      - title: Modélisation du comportement temporel du pipeline pour le calcul de WCET
+        authors:
+          - Zhenyu Bai
+        publisher: "PhD thesis, Université Paul Sabatier-Toulouse III"
+        releaseDate: 2023
+
+      - title: "Déterminer le WCET d’applications temps-réel en présence de latences d’exécution variables"
+        authors:
+          - Zhenyu Bai
+          - Hugues Cassé
+          - Marianne de Michiel
+          - Thomas Carle
+          - Christine Rochange
+        publisher: "Conférence francophone d’informatique en Parallélisme, Architecture et Système (COMPAS 2021)"
+        releaseDate: 2021
+
+    Languages:
+      - name: Chinese
+        summary: "Native"
+
+      - name: French
+        summary: "Almost native"
+
+      - name: English
+        summary: "Fluent"
