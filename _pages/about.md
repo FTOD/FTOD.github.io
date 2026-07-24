@@ -24,10 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-*Moore's Law is over; memory is the enemy.*  
-*Don't repeat the VLIW mistake: compiler–hardware co-design is the key to making dataflow architectures the winner.*
+My research focuses on dataflow architectures and compiler systems. On the hardware side, we design CGRA-style dataflow architectures, from custom microarchitectures and tapeouts to end-to-end software stacks. On the compiler side, we develop compilation techniques for systems with explicit data movement, distributed memories, and parallel compute units.
 
-
-My current research focuses on dataflow architecture and compilers. We develop CGRA-style dataflow architectures and polyhedral-based compilation for systems with explicit data movement, distributed memories, and parallel compute units.
-
-On the software side, we build compiler support for tile-based DSLs (e.g., Triton and Helion) targeting commercial dataflow platforms, including Tenstorrent, IBM AIU, AMD NPU/AIE and classical NPU/TPU-like architectures. Our prototype end-to-end flow (Helion/Triton → MLIR → TT-Metal) on Tenstorrent Wormhole achieves performance comparable to vendor libraries on tensor kernels and fused AI operators.
+A central goal of our work is to support tile-based DSLs such as Helion across both our in-house architectures and commercial platforms, including Tenstorrent, IBM AIU, AMD NPU/AIE, NPU/TPU-style architectures, as well as the new dataflow features of NVidia's GPUs. Our [**Loom**](https://github.com/ecolab-nus/loom) framework provides an end-to-end compilation flow (Helion → MLIR → TT-Metal) for Tenstorrent, achieving performance comparable to vendor libraries on tensor kernels and fused AI operators.
