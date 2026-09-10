@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: ARTIC Fellow @ <a href='https://www.comp.nus.edu.sg/'> School of Computing, National University of Singapore</a>
 

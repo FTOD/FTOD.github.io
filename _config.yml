@@ -92,8 +92,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Zhenyu's Blog # blog_name will be displayed in your blog page
+blog_description: Notes on dataflow architectures, compilers, and research.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -244,7 +244,15 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [] # disabled - no blog
+    enabled: [year, tags, categories]
+    layouts:
+      year: archive
+      tag: archive
+      category: archive
+    permalinks:
+      year: /blog/:year/
+      tag: /blog/tag/:name/
+      category: /blog/category/:name/
   books:
     enabled: [] # disabled - no books
 
