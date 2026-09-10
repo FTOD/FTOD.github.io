@@ -117,9 +117,6 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <li class="nav-item">
-            <a class="nav-link" href="https://ftod.github.io/inferinfra/">InferInfra</a>
-          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
@@ -136,6 +133,21 @@
                 <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
                 <i class="fa-solid fa-sun" id="light-toggle-light"></i>
               </button>
+            </li>
+          {% endif %}
+          {% if site.data.socials.github_username %}
+            <!-- GitHub -->
+            <li class="nav-item">
+              <a
+                id="github-link"
+                class="nav-link"
+                href="https://github.com/{{ site.data.socials.github_username }}"
+                title="GitHub"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-github"></i>
+                <span class="sr-only">GitHub</span>
+              </a>
             </li>
           {% endif %}
         </ul>
